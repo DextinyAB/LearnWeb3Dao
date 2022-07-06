@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMood",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mood",
+						"type": "string"
+					}
+				],
+				"name": "setMood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MoodDiary.sol": "MoodDiary"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MoodDiary.sol": {
+			"keccak256": "0x42b56b7fe0cf455f6702eba6ef84f787c3b64ea593374b5a0b41a2d72cbbad68",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://287728e0acbced0200249ddda516ac854d28c42fc3db9537bd767210d507b3f6",
+				"dweb:/ipfs/Qmdkx4EMyHs8NTGsrjkBx7RG6BjVpGHd6K9nVRfYCyXoCB"
+			]
+		}
+	},
+	"version": 1
+}
